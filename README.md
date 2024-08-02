@@ -26,7 +26,7 @@ This repository contains Terraform configuration files to deploy a scalable and 
     ```bash
     az account set --subscription="SUBSCRIPTION_ID"
 
-4. Create a terraform.tfvars file in the <repository-directory> and add your specific variable value
+4. Create a terraform.tfvars file in the repository-directory and add your specific variable value
     ```bash
     resource_group_name    = "Zen_Core"
     location               = "eastus 2"
