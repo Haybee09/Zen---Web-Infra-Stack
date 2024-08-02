@@ -34,13 +34,13 @@ This repository contains Terraform configuration files to deploy a scalable and 
     web_subnet_prefix      = "10.0.1.0/24"
     db_subnet_prefix       = "10.0.2.0/24"
     appgw_subnet_prefix    = "10.0.3.0/24"
-    vm_admin_username      = "zenadmin"
-    vm_admin_password      = "Reganam@321#"
-    sql_admin_username     = "zenadmin"
-    sql_admin_password     = "Reganam@321#"
+    vm_admin_username      = "VM User"
+    vm_admin_password      = "VEM Password"
+    sql_admin_username     = "SQL User"
+    sql_admin_password     = "SQL Password"
     project_name           = "zenrecovery"
     web_vm_count           = 2
-    security_center_email  = "salawuhabeeb09@gmail.com"
+    security_center_email  = "user@email"
 
 5. Initialize Terraform:
     ```bash
@@ -52,7 +52,7 @@ This repository contains Terraform configuration files to deploy a scalable and 
 
 6. Apply Terraform configuration:
     ```bash
-    terraform plan
+    terraform apply
 
 Type 'yes' when prompted to create the resources.
 
